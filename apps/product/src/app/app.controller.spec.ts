@@ -14,10 +14,10 @@ describe('AppController', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to employee!"', () => {
+    it('should return "Welcome to product!"', () => {
       const appController = app.get<AppController>(AppController);
       expect(appController.getData()).toEqual({
-        message: 'Welcome to employee!',
+        message: 'Welcome to product!',
       });
     });
   });
